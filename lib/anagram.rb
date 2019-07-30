@@ -1,11 +1,13 @@
 # Your code goes here!
 class Anagram 
-  attr_accessor :name , :word 
+  attr_accessor :word 
   
-  def initialize(name)
+  def initialize(word)
     @word = word 
   end 
   
   def match(find_array)
-    find_array.find.all do |array|
+    find_array.find_all do |array|
+      if word == array 
+        
       
