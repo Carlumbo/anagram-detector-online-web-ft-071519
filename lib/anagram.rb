@@ -3,6 +3,7 @@ class Anagram
   
   def initialize(w)
     @w = w
+  end 
     
     def match(find_array)
       find_array.find_all do |a|
@@ -11,3 +12,5 @@ class Anagram
         end 
       end 
     end 
+    
+  end 
